@@ -80,7 +80,7 @@ onUnmounted(() => {
     <Information />
     <AboutTeam />
     <Featuring />
-    <Newsletter />
+    <!-- <Newsletter /> -->
   </div>
   <DefaultFooter />
 </template>

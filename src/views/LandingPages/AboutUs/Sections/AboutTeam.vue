@@ -26,7 +26,7 @@ import louis from "@/assets/img/team/louis.jpeg";
           <HorizontalTeamCard
             class="mt-4"
             :image="jose"
-            :profile="{ name: 'Jose Christian Abraham', link: 'javascript:;' }"
+            :profile="{ name: 'Jose Christian Abraham', link: 'https://www.linkedin.com/in/jose-christian-abraham-80a83421a/' }"
             :position="{ label: 'CEO', color: 'success' }"
             description="Artist is a term applied to a person who engages in an activity deemed to be an art."
           />
@@ -35,7 +35,7 @@ import louis from "@/assets/img/team/louis.jpeg";
           <HorizontalTeamCard
             class="mt-lg-4 mt-5"
             :image="louis"
-            :profile="{ name: 'Louis Caesa Kesuma', link: 'javascript:;' }"
+            :profile="{ name: 'Louis Caesa Kesuma', link: 'https://www.linkedin.com/in/louiscaesakesuma/' }"
             :position="{ label: 'Developer', color: 'success' }"
             description="Artist is a term applied to a person who engages in an activity deemed to be an art."
           />
