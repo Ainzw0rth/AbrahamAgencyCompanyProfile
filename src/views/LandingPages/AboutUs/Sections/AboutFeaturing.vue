@@ -42,7 +42,7 @@ import DefaultCounterCard from "../../../../examples/cards/counterCards/DefaultC
           />
         </div>
       </div>
-      <div class="row justify-content-center text-center">
+      <!-- <div class="row justify-content-center text-center">
         <div class="col-md-3">
           <DefaultCounterCard
             title="Projects"
@@ -69,7 +69,7 @@ import DefaultCounterCard from "../../../../examples/cards/counterCards/DefaultC
             :duration="4000"
           />
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>

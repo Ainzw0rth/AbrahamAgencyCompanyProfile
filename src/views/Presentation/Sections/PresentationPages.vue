@@ -11,14 +11,14 @@ import imgSigninCover from "@/assets/img/signin-cover.png";
       <div class="row">
         <div class="row text-center my-sm-5 mt-5">
           <div class="col-lg-6 mx-auto">
-            <MaterialBadge color="success" class="mb-3"
+            <!-- <MaterialBadge color="success" class="mb-3"
               >Boost creativity</MaterialBadge
-            >
-            <h2 class="">With our coded pages</h2>
-            <p class="lead">
+            > -->
+            <h2 class="">Our projects</h2>
+            <!-- <p class="lead">
               The easiest way to get started is to use one of our <br />
               pre-built example pages.
-            </p>
+            </p> -->
           </div>
         </div>
       </div>
@@ -30,35 +30,15 @@ import imgSigninCover from "@/assets/img/signin-cover.png";
             <div class="col-md-6 mt-md-0 mt-5">
               <ExampleCard
                 class="shadow-lg"
-                title="About Us Page"
-                image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages/about-us.jpg"
-                route="about"
+                title="AI chatbot for assessing managers"
+                image="https://cdn.discordapp.com/attachments/813637236037910548/1270612625759273082/webbot.png?ex=66b455b8&is=66b30438&hm=c01673a9449278947f66be22a06e7f73f1691744ff269619808e69b4f5d60d05&"
               />
             </div>
             <div class="col-md-6 mt-md-0 mt-5">
               <ExampleCard
                 class="shadow-lg"
-                title="Contact Us Page"
-                image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages/contact.jpg"
-                route="contactus"
-              />
-            </div>
-          </div>
-          <div class="row mt-4">
-            <div class="col-md-6 mt-md-0 mt-5">
-              <ExampleCard
-                classes="mt-5"
-                title="Sign In Page"
-                :image="imgSigninCover"
-                route="signin-basic"
-              />
-            </div>
-            <div class="col-md-6 mt-md-0 mt-5">
-              <ExampleCard
-                classes="shadow-lg"
-                title="Author Page"
-                image="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages/author.jpg"
-                route="author"
+                title="Whatsapp bot for customer service"
+                image="https://cdn.discordapp.com/attachments/813637236037910548/1270612626002673787/whatsapp.png?ex=66b455b8&is=66b30438&hm=251c70eacbbc713b6769d39e13334f0c9c8c6bb32593efd0f6bbf936b20ff517&"
               />
             </div>
           </div>
@@ -66,11 +46,10 @@ import imgSigninCover from "@/assets/img/signin-cover.png";
         <div class="col-md-3 mx-auto mt-md-0 mt-3">
           <div class="position-sticky" style="top: 100px !important">
             <h3>
-              Presentation Pages for Company, Landing Pages, Blogs and Support
+              AI integration on websites and whatsapp chatbots
             </h3>
             <h6 class="text-secondary font-weight-normal">
-              These is just a small selection of the multiple possibitilies you
-              have. Focus on the business, not on the design.
+              These are a few snippets of our projects.
             </h6>
           </div>
         </div>

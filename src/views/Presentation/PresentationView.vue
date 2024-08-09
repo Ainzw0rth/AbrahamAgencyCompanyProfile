@@ -18,6 +18,7 @@ import data from "./Sections/Data/designBlocksData";
 import BuiltByDevelopers from "./Components/BuiltByDevelopers.vue";
 import PresentationTestimonials from "./Sections/PresentationTestimonials.vue";
 import PresentationInformation from "./Sections/PresentationInformation.vue";
+import Featuring from "../LandingPages/AboutUs/Sections/AboutFeaturing.vue";
 
 //images
 import vueMkHeader from "@/assets/img/vue-mk-header.jpg";
@@ -74,13 +75,14 @@ onUnmounted(() => {
   </Header>
 
   <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
-    <PresentationCounter />
-    <PresentationInformation />
-    <PresentationExample :data="data" />
+    <!-- <PresentationCounter /> -->
+    <!-- <PresentationInformation /> -->
+    <!-- <PresentationExample :data="data" /> -->
     <PresentationPages />
-    <BuiltByDevelopers />
+    <!-- <BuiltByDevelopers /> -->
+    <Featuring />
 
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
         <div class="col-lg-4">
           <FilledInfoCard
@@ -126,9 +128,10 @@ onUnmounted(() => {
           />
         </div>
       </div>
-    </div>
-    <PresentationTestimonials />
+    </div> -->
 
+    <!-- <PresentationTestimonials /> -->
+<!-- 
     <div
       class="container-fluid mt-sm-5 border-radius-xl"
       :style="{
@@ -167,9 +170,9 @@ onUnmounted(() => {
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
         <div class="d-flex flex-column w-100 text-center p-5 mb-8">
           <h3>Available on these technologies</h3>
@@ -260,8 +263,9 @@ onUnmounted(() => {
           </div>
         </div>
       </div>
-    </div>
-    <div class="py-5">
+    </div> -->
+
+    <!-- <div class="py-5">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 ms-auto">
@@ -290,7 +294,7 @@ onUnmounted(() => {
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
   <DefaultFooter />
 </template>
